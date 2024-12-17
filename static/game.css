@@ -1,0 +1,21 @@
+.chess-board {
+    border-collapse: collapse;
+    margin: 20px;
+}
+
+.cell {
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.cell:nth-child(even) {
+    background-color: #f0d9b5;
+}
+
+.cell:nth-child(odd) {
+    background-color: #b58863;
+} 
